@@ -29,24 +29,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
 
-{% comment %}
-  EVENTBRITE
-
-  This block includes the Eventbrite registration widget if
-  'eventbrite' has been set in the header.  You can delete it if you
-  are not using Eventbrite, or leave it in, since it will not be
-  displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
-{% endif %}
-
 <h4>Drawing from the Library Carpentries lessons Data intro for librarians, Tidy data for librarians and SQL for librarians, this session will introduce learners to the basics of handling data, along with how to query their using regular expressions and SQL (Standard Query Language). It will also introduce users to a free tool (SQLite), resources to learn advanced querying techniques, and where to seek guidance if they encounter problems with their own real-world applications after the session.</h4>
 
 <h2 id="general">General Information</h2>
@@ -212,23 +194,7 @@ COLLABORATIVE NOTES
 {% endif %}
 
 <hr/>
-
-{% comment %}
-  SYLLABUS
-
-  1. Introduction and jargon busting
-  2. Formatting data in spreadsheets and handling common formatting problems
-  3. Basic quality assurance and control
-  4. Regular Expressions
-  
-  Break time!
-  
-  5. Introduction to SQL
-  6. Basic Queries
-  7. COUNT and GROUP BY
-  8. Joins
-
-{% comment %}
+To participate in a Library Carpentry workshop, you will need access to the software described below. In addition, you will need an up-to-date web browser.
   SETUP
 
 <h2 id="setup">Setup</h2>
