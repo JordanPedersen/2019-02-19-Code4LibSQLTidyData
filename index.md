@@ -47,10 +47,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>Drawing from the Library Carpentries lessons Data intro for librarians, Tidy data for librarians and SQL for librarians, this session will introduce learners to the basics of handling data, along with how to query their using regular expressions and SQL (Standard Query Language). It will also introduce users to a free tool (SQLite), resources to learn advanced querying techniques, and where to seek guidance if they encounter problems with their own real-world applications after the session.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
+<h4>Drawing from the Library Carpentries lessons Data intro for librarians, Tidy data for librarians and SQL for librarians, this session will introduce learners to the basics of handling data, along with how to query their using regular expressions and SQL (Standard Query Language). It will also introduce users to a free tool (SQLite), resources to learn advanced querying techniques, and where to seek guidance if they encounter problems with their own real-world applications after the session.</h4>
 
 <h2 id="general">General Information</h2>
 
