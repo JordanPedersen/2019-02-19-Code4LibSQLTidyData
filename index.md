@@ -197,8 +197,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 
 {% comment %}
-  Collaborative Notes
-
+COLLABORATIVE NOTES
   If you want to use an Etherpad, go to
 
       http://pad.software-carpentry.org/YYYY-MM-DD-site
@@ -216,8 +215,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 {% comment %}
   SYLLABUS
-
-  Show what topics will be covered.
 
   1. Introduction and jargon busting
   2. Formatting data in spreadsheets and handling common formatting problems
