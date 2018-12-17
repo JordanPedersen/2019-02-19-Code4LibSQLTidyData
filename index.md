@@ -219,29 +219,17 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
   Show what topics will be covered.
 
-  1. If your workshop is R rather than Python, remove the comment
-     around that section and put a comment around the Python section.
-  2. Some workshops will delete SQL.
-  3. Please make sure the list of topics is synchronized with what you
-     intend to teach.
-  4. You may need to move the div's with class="col-md-6" around inside
-     the div's with class="row" to balance the multi-column layout.
-
-  This is one of the places where people frequently make mistakes, so
-  please preview your site before committing, and make sure to run
-  'tools/check' as well.
-{% endcomment %}
-<h2 id="syllabus">Syllabus</h2>
-
-{% if page.carpentry == "swc" %}
-  {% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/syllabus.html %}
-{% endif %}
-
-<hr/>
+  1. Introduction and jargon busting
+  2. Formatting data in spreadsheets and handling common formatting problems
+  3. Basic quality assurance and control
+  4. Regular Expressions
+  
+  Break time!
+  
+  5. Introduction to SQL
+  6. Basic Queries
+  7. COUNT and GROUP BY
+  8. Joins
 
 {% comment %}
   SETUP
